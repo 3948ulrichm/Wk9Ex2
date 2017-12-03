@@ -46,7 +46,7 @@ extension NewsfeedTableViewController
         return 0
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let _ = posts {
             return 1
         } else {
@@ -77,9 +77,6 @@ extension NewsfeedTableViewController
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return Storyboard.postHeaderHeight
     }
-    
-    
-    
 }
 
 
